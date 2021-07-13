@@ -11,38 +11,19 @@
     background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
     width: auto;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    margin: auto;
-    width: 40%;
-    max-width: auto;
-    height: auto;
-    justify-content: center;
-    justify-items: center;
-}
+
 
 .counter {
     font-size: 20rem;
     color: white;
-    position: relative;
-    width: auto;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .button_container {
-
     justify-content: center;
     justify-items: center;
 }
@@ -56,13 +37,18 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2em;
     align-content: center;
 }
 
-.buttons:hover {
-    background-color: rgba(205, 92, 92, .4);
+.button_add {
+    font-weight: bold;
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)
+    
+}
 
+.button_clear:hover {
+    background-color: rgba(205, 92, 92, .4);
 }
 
 
